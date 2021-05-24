@@ -1,44 +1,49 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body,html{
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  color: #fff;
-  padding: 0;
-  margin: 0;
-}
-    .typing > *{
+<style>
+  HTML CSSResult Skip Results Iframe
+EDIT ON
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
   overflow: hidden;
-  white-space: nowrap;
-  animation: typingAnim 5s steps(50);
 }
-    .typing > *::after{
-  content: ". .";
-  display: block;
-  position: absolute;
-  top: 1em;
-  left: .35em;
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
 }
-  </style>
-<title>Typing Effect</title>
-<link rel="stylesheet" type="text/css" href="styles.css"/>
-</head>
-<body>
-<div class="typing">
- *** <h1>Hello!<br>I'm Sam Anderson</h1>
-  @keyframes typingAnim{
-  from { width: 0 }
-  to { width: 100% }
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
 }
-@keyframes typingSpeak{
-  0% { width: 1em; height: .1em }
-  100% { width: 1em; height: .5em; }
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
-***
-</div>
-</body>
-</html>
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+Resources1× 0.5× 0.25×Rerun
+</style>
+<p class="line-1 anim-typewriter">Animation typewriter style using css steps()</p>
