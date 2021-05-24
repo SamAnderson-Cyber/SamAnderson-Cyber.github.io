@@ -1,1 +1,44 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body,html{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+    .typing > *{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 5s steps(50);
+}
+    .typing > *::after{
+  content: ". .";
+  display: block;
+  position: absolute;
+  top: 1em;
+  left: .35em;
+}
+  @keyframes typingAnim{
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes typingSpeak{
+  0% { width: 1em; height: .1em }
+  100% { width: 1em; height: .5em; }
+}
+***
+  </style>
+<title>Typing Effect</title>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+<div class="typing">
+  <h1>Put your title here...</h1>
+</div>
+</body>
+</html>
