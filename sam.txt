@@ -4,7 +4,7 @@ My favorite code quote, "<span id="k">Any fool can write the code that computer 
 
 Hey There! This is the portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>My name is Sam Anderson and I'm a thinker, creator, programmer and a penetration tester.</p>
 <p>About Me.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
-<p> My favourite programming language is python and C++. <a href="link"> portfolio</a>.</p><!-- delaydelaydelaydelaydelaydelaydelay -->
+<p> My favourite programming language is python and C++. <a href="link"></a>.</p><!-- delaydelaydelaydelaydelaydelaydelay -->
 <p>Links to some of my Work. <br><br><br>Will be added later. <a href="link"></a>.</p><!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
 
 You can contact me at : <!-- slightdelayhere--><!-- longlonglongcomment --><a href="Your email ID">sam_anderson804@outlook.com</a>.
